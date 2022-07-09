@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Uzb Mods o'yin va ilovalar muxlislari uchun 100% ishlaydigan modlarni taqdim etishga e'tibor qaratadi. Uzb Mods-ga qo'shiling va siz uchun 100% ishlaydigan modni tanlang.">
+  <meta name="keywords" content="Uzb-mods uzb modder modder beeline vzlom uzb-modder modder uzb-mods saidmurod abror uzb mod mod version">
+  <title> Uzb Mods </title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./IMG/logo/logo.png" type="image/x-icon">
+</head>
+<body>
+
+  <div class="bg-color">
+    <div class="responsive">
+      <button class="close-btn">X</button>
+      <div class="media-logo">
+        <a href="index.html"><img src="./IMG/logo/logo.png" alt="logo" width="99 " height="99"></a>
+      </div>
+      <div class="responsive-menu">
+        <ul class="nav-links">
+          <li class="nav-link"><a href="index.html">Bosh sahifa</a></li>
+          <li class="nav-link"><a href="https://t.me/Uzb_Mods" target="_blank">Biz haqimizda</a></li>
+          <li class="nav-link"><a href="https://t.me/mrxdev" target="_blank">IT haqida</a></li>
+          <li class="nav-link"><a href="https://t.me/UzModder" target="_blank">Bog'lanish</a></li>
+          <li class="nav-link"><a href="https://t.me/jumanazarov_s" target="_blank">Web Developer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <header>
+        <div class="main-header">
+          <div class="header-logo">
+            <a href="index.html">
+              <img class="head-logo-img" src="./IMG/logo/logo.png">
+            </a>
+            <a href="index.html"><p class="head-logo-text"> Uzb Mods </p></a>
+          </div>
+          <nav>
+            <div class="main-nav">
+              <ul class="navigation-items">
+                <li class="navigation-item"><a href="#"> Bosh Sahifa </a></li>
+                <li class="navigation-item"><a href="#"> 
+                  Biz Haqimizda
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <!-- <button>DropDown</button> -->
+                <ul class="sub-menu">
+                  <li class="sub-item"><a href="https://t.me/Uzb_Mods" target="_blank">Telegram</a></li>
+                  <li class="sub-item"><a href="https://t.me/mrxdev" target="_blank">IT Telegram</a></li>
+                  <li class="sub-item"><a href="https://www.youtube.com/uzmodderz" target="_blank">You Tube</a></li>
+                  <li class="sub-item"><a href="https://www.instagram.com/uzmodder" target="_blank">Instagram</a></li>
+                  <li class="sub-item"><a href="https://t.me/Uzbek_Mods" target="_blank">Telegram Chat</a></li>
+                </ul>
+              </li>
+              <li class="navigation-item"><a href="#"> 
+                  Bog'lanish
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu">
+                  <li class="sub-item"><a href="https://t.me/UzModder" target="_blank">Uz Modder</a></li>
+                  <li class="sub-item"><a href="https://t.me/jumanazarov_s" target="_blank">Web Developer</a></li>
+                </ul>
+              </li>
+              <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
+              </ul>
+            </div>
+          </nav>
+          <div class="nav-url"><a href="./PROG/Uzb Mods.apk" download rel="noopener noreferrer">Boshlash</a></div>
+        </div>
+      </header>
+      <main>
+        <div class="main">
+          <div class="main-content">
+            <div class="main-f">
+              <div class="main-logo">
+                <h1>Uzb Mods</h1>
+              </div>
+              <div class="main-text">
+                <p>Uzb Mods rasmiy saytiga hush kelibsiz !</p>
+              </div>
+            </div>
+            <div class="main-url">
+              <a href="./PROG/Uzb Mods.apk"  download rel="noopener noreferrer">
+                Yuklab olish ( 6 MB ) <br> Uzb Mods ilovasi
+             </a>
+            </div>
+            <div class="main-title">
+              <p>
+                Beeline Uzbekistan, Al-Chiroq va boshqa ilova mod versiyalar tashlanadi. Ilovadan yoki rasmiy saytimizdan yuklab olishingiz mumkin.
+              </p>
+            </div>
+            <div class="main-title-2">
+              <p>
+                Beeline Uzbekistan, Al-Chiroq va boshqa ilova mod versiyalar tashlanadi. Ilovadan yoki rasmiy saytimizdan yuklab olishingiz mumkin.
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  
+
+
+  <script>
+    let icon = document.querySelector(".hamburger");
+    let mediaLinks = document.querySelector(".responsive li");
+    let menuBar = document.querySelector(".responsive");
+    let closeBtn = document.querySelector(".close-btn")
+
+    icon.addEventListener("click", menuFunc);
+    closeBtn.addEventListener("click", btnFunc);
+    function menuFunc() {
+      menuBar.classList.toggle("show")
+    }
+    function btnFunc() {
+      menuBar.classList.toggle("btn-show")
+    }
+
+  </script>
+</body>
+</html>
